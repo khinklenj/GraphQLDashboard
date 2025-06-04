@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-ql-dashboard-client-side-solution",
+    "id": "baf7e3f6-ade2-454f-a1a8-03d36e8ed478",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "GraphQLDashboard description"
+      },
+      "longDescription": {
+        "default": "GraphQLDashboard description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "graph-ql-dashboard Feature",
+        "description": "The feature that activates elements of the graph-ql-dashboard solution.",
+        "id": "71d86699-6073-483f-95d4-9a93d5d60e26",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-ql-dashboard.sppkg"
+  }
+}

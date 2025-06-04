@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "graph-ql-dashboard",
+    "libraryId": "baf7e3f6-ade2-454f-a1a8-03d36e8ed478",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "GraphQLDashboard",
+    "solutionShortDescription": "GraphQLDashboard description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

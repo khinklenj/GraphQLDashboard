@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graph-ql-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphQlDashboard/GraphQlDashboardWebPart.js",
+          "manifest": "./src/webparts/graphQlDashboard/GraphQlDashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphQlDashboardWebPartStrings": "lib/webparts/graphQlDashboard/loc/{locale}.js"
+  }
+}

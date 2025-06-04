@@ -1,0 +1,144 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.graphQlDashboard {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.agendaCard {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chartCard {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gaugeSection {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gauges {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.gaugeItem {
+  flex: 1;
+  text-align: center;
+}
+
+.gaugeItem canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+.gaugeLabel {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.gaugeTip {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.myDayCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.myDayCard h3 {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.eventItem {
+  border-left: 3px solid #6264a7;
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+
+.eventTitle {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.eventTime {
+  font-size: 14px;
+  color: #666;
+}
+
+.eventLocation {
+  font-size: 14px;
+  color: #888;
+}
+
+.rawApiResponse {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #333;
+  max-height: 300px;
+  overflow: auto;
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #444;
+  }
+
+  pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+}
